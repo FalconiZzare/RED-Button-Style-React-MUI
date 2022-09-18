@@ -3,6 +3,7 @@ import {Stack} from "@mui/material";
 import Background from "./assets/Dark-down.svg"
 import Header from "./components/Header"
 import News from "./components/News";
+import Notification from "./components/UI/Notification";
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
         >
             <Stack alignItems={'center'} spacing={4}>
                 <Header navbarItems={navbarElements}/>
+                <Notification />
                 <News/>
             </Stack>
         </div>

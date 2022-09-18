@@ -1,5 +1,6 @@
 import React from 'react';
 import {Stack} from "@mui/material";
+import PropTypes from 'prop-types';
 import ButtonRedacted from "./UI/ButtonRedacted";
 
 const Header = (props) => {
@@ -24,5 +25,9 @@ const Header = (props) => {
         </Stack>
     );
 };
+
+Header.propTypes = {
+    navbarItems: PropTypes.arrayOf(PropTypes.object),
+}
 
 export default Header;
