@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box} from '@mui/material';
+import {Box, Stack} from '@mui/material';
 
 const ButtonRedacted = (props) => {
 
@@ -42,6 +42,9 @@ const ButtonRedacted = (props) => {
             }}
         >
             {props.children}
+            <Stack>
+
+            </Stack>
         </Box>
     );
 };

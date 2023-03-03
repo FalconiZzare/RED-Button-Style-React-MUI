@@ -7,7 +7,7 @@ const Notification = () => {
         <div className={"notif_container"}>
             <div className={"notif"}>
                 <NotificationsIcon/>
-                100 New Notifications
+                69 New Notifications
             </div>
         </div>
     );
